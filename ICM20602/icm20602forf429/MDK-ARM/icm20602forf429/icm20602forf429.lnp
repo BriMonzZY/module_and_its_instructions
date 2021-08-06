@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp
+"icm20602forf429\startup_stm32f429xx.o"
+"icm20602forf429\main.o"
+"icm20602forf429\gpio.o"
+"icm20602forf429\spi.o"
+"icm20602forf429\stm32f4xx_it.o"
+"icm20602forf429\stm32f4xx_hal_msp.o"
+"icm20602forf429\stm32f4xx_hal_spi.o"
+"icm20602forf429\stm32f4xx_hal_rcc.o"
+"icm20602forf429\stm32f4xx_hal_rcc_ex.o"
+"icm20602forf429\stm32f4xx_hal_flash.o"
+"icm20602forf429\stm32f4xx_hal_flash_ex.o"
+"icm20602forf429\stm32f4xx_hal_flash_ramfunc.o"
+"icm20602forf429\stm32f4xx_hal_gpio.o"
+"icm20602forf429\stm32f4xx_hal_dma_ex.o"
+"icm20602forf429\stm32f4xx_hal_dma.o"
+"icm20602forf429\stm32f4xx_hal_pwr.o"
+"icm20602forf429\stm32f4xx_hal_pwr_ex.o"
+"icm20602forf429\stm32f4xx_hal_cortex.o"
+"icm20602forf429\stm32f4xx_hal.o"
+"icm20602forf429\stm32f4xx_hal_exti.o"
+"icm20602forf429\stm32f4xx_hal_tim.o"
+"icm20602forf429\stm32f4xx_hal_tim_ex.o"
+"icm20602forf429\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "icm20602forf429\icm20602forf429.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "icm20602forf429.map" -o icm20602forf429\icm20602forf429.axf

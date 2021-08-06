@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"encoderforf103\startup_stm32f103xe.o"
+"encoderforf103\main.o"
+"encoderforf103\gpio.o"
+"encoderforf103\tim.o"
+"encoderforf103\usart.o"
+"encoderforf103\stm32f1xx_it.o"
+"encoderforf103\stm32f1xx_hal_msp.o"
+"encoderforf103\stm32f1xx_hal_gpio_ex.o"
+"encoderforf103\stm32f1xx_hal_tim.o"
+"encoderforf103\stm32f1xx_hal_tim_ex.o"
+"encoderforf103\stm32f1xx_hal.o"
+"encoderforf103\stm32f1xx_hal_rcc.o"
+"encoderforf103\stm32f1xx_hal_rcc_ex.o"
+"encoderforf103\stm32f1xx_hal_gpio.o"
+"encoderforf103\stm32f1xx_hal_dma.o"
+"encoderforf103\stm32f1xx_hal_cortex.o"
+"encoderforf103\stm32f1xx_hal_pwr.o"
+"encoderforf103\stm32f1xx_hal_flash.o"
+"encoderforf103\stm32f1xx_hal_flash_ex.o"
+"encoderforf103\stm32f1xx_hal_exti.o"
+"encoderforf103\stm32f1xx_hal_uart.o"
+"encoderforf103\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "encoderforf103\encoderforf103.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "encoderforf103.map" -o encoderforf103\encoderforf103.axf

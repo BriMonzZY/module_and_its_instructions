@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"ipsoledforf103\startup_stm32f103xe.o"
+"ipsoledforf103\main.o"
+"ipsoledforf103\gpio.o"
+"ipsoledforf103\usart.o"
+"ipsoledforf103\stm32f1xx_it.o"
+"ipsoledforf103\stm32f1xx_hal_msp.o"
+"ipsoledforf103\seekfree_ips114_spi.o"
+"ipsoledforf103\seekfree_font.o"
+"ipsoledforf103\stm32f1xx_hal_gpio_ex.o"
+"ipsoledforf103\stm32f1xx_hal_tim.o"
+"ipsoledforf103\stm32f1xx_hal_tim_ex.o"
+"ipsoledforf103\stm32f1xx_hal_uart.o"
+"ipsoledforf103\stm32f1xx_hal.o"
+"ipsoledforf103\stm32f1xx_hal_rcc.o"
+"ipsoledforf103\stm32f1xx_hal_rcc_ex.o"
+"ipsoledforf103\stm32f1xx_hal_gpio.o"
+"ipsoledforf103\stm32f1xx_hal_dma.o"
+"ipsoledforf103\stm32f1xx_hal_cortex.o"
+"ipsoledforf103\stm32f1xx_hal_pwr.o"
+"ipsoledforf103\stm32f1xx_hal_flash.o"
+"ipsoledforf103\stm32f1xx_hal_flash_ex.o"
+"ipsoledforf103\stm32f1xx_hal_exti.o"
+"ipsoledforf103\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "ipsoledforf103\ipsoledforf103.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ipsoledforf103.map" -o ipsoledforf103\ipsoledforf103.axf
